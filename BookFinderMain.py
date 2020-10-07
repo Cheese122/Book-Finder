@@ -2,7 +2,7 @@ import time
 import isbnlib
 import webbrowser
 import random
-import requests
+
 
 def LookupISBN(ID):
         if isbnlib.is_isbn13(ID):
